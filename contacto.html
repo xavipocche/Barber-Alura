@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    rel="stylesheet"
+  </head>
+  <body>
+    <header>
+      <div class="caja">
+        <h1><img src="imagenes/logo.png" alt="Logo de la barbería alura" /></h1>
+        <nav>
+          <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="formulario-contacto">
+      <form action="">
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input
+          class="input-padron"
+          id="nombreApellido"
+          type="text"
+          placeholder="Nombre y Apellido"
+          required
+        />
+
+        <label for="email">Correo electrónico</label>
+        <input
+          class="input-padron"
+          type="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+
+        <label for="phone">Teléfono</label>
+        <input
+          class="input-padron"
+          type="number"
+          id="tel"
+          placeholder="Teléfono"
+          required
+        />
+
+        <label for="message">Mensaje</label>
+        <textarea
+          class="input-padron"
+          rows="10"
+          cols="42"
+          id="message"
+          placeholder="Escriba su mensaje..."
+        ></textarea>
+
+        <fieldset>
+          <legend>Preferencia de contacto:</legend>
+
+          <label for="radio-email">
+            <input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-email"
+            />Email
+          </label>
+
+          <label for="radio-telefono">
+            <input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-telefono"
+            />Teléfono
+          </label>
+
+          <label for="radio-whatsapp">
+            <input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-whatsapp"
+              checked
+            />Whatsapp
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>¿En qué horario prefiere ser atendido?</legend>
+
+          <select class="time" name="" id="">
+            <option value="">Mañana</option>
+            <option value="">Tarde</option>
+            <option value="">Noche</option>
+          </select>
+        </fieldset>
+
+        <label for="checkbox"
+          ><input type="checkbox" id="checkbox" checked />¿Le gustaría recibir
+          novedades de la barbería?</label>
+
+        <div class="boton-send">
+          <button id="send" type="submit" class="enviar">Enviar</button>
+        </div>
+      </form>
+
+      <div class="alinear-table">
+        <table class="tabla">
+          <thead>
+            <tr>
+              <th>Día</th>
+              <th>Horario</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>Lunes</td>
+              <td>8hs - 20hs</td>
+            </tr>
+            <tr>
+              <td>Miércoles</td>
+              <td>8hs - 20hs</td>
+            </tr>
+            <tr>
+              <td>Viernes</td>
+              <td>8hs - 20hs</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <img src="./imagenes/logo-blanco.png" alt="Logo de la barbería alura" />
+      <p class="copyright">&copy Copyright Barbería Alura - 2022</p>
+    </footer>
+  </body>
+</html>

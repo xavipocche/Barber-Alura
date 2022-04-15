@@ -1,0 +1,386 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline; 
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 300ms all;
+}
+
+nav a:hover{
+    text-shadow: 5px 5px 10px black;
+    color:#c78c19;
+}
+
+nav a:active{
+    transition: 100ms;
+    color:#088c19;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.productos li:hover{
+    transform: scale(1.1);
+    border-color: #c78c19;
+    color: #c78c19;
+}
+
+.productos li:hover{
+    box-shadow: 20px 20px 20px #272827;
+}
+
+.productos li:active{
+    transition: 100ms;
+    border-color: #088c19;
+    color: #088c19;
+}
+    
+
+.productos h2{
+    font-size: 22px;
+    font-weight: bold;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.producto-descripcion{
+    font-size: 15px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    
+    text-align: center;
+    background-image: url(../imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    margin: 20px;
+}
+
+.formulario-contacto{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+form input:focus{
+    transition: 400ms;
+    box-shadow: 5px 5px 50px 5px #272827;
+}
+
+form textarea:focus{
+    transition: 400ms;
+    box-shadow: 5px 5px 50px 5px #272827;
+}
+
+form label, form legend{
+    display: block;
+    margin: 0 0 20px;
+}
+
+.input-padron{
+    font-size: 20px;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 2px black solid;
+    border-radius: 5px;
+    resize: none;
+}
+
+#send{
+    font-size: 20px;
+}
+
+.time{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight:  bold;
+    color:  white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    transition: 400ms all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    transform: scale(1.2);
+    background-color: #272827;
+    box-shadow: 5px 5px 20px 10px black;
+    color:#ccc
+}
+
+table{
+    
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.tabla{
+    margin: 0 0 10px 0;
+}
+
+/* CSS index */
+
+.banner{
+    width: 100%;
+    border-top: 3px #272827 solid;
+    border-bottom: 3px #272827 solid;
+}
+
+.principal{
+    padding: 1em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    color: black;
+    text-shadow: 2px 2px 5px  #c78c19;
+    text-align: center;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    clear: left;
+    margin: 1em 0 1em 0
+}
+
+.principal p{
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+
+    margin: 0 0 1em 0;
+}
+
+.principal strong{
+    font-weight: 600;
+}
+
+.utensilios{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0 15px 5px 0;
+}
+
+.diferenciales{
+    text-align: center;
+}
+
+.mapa{
+    padding: 1em 0;
+    background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa div{
+    width: 940px;
+    margin: 0 auto;
+    border: 3px black solid;
+    border-radius: 5px;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.diferenciales{
+    padding: 1em 0;
+    background: #888888;
+}
+
+.contenido-diferenciales{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    text-align: left;
+    font-size: 25px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+    margin: 0 70px 0 0;
+}
+
+.items:before{
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    border-radius: 5px;
+    width: 480px;
+    transition: 400ms;
+    box-shadow: 10px 10px 50px 5px #272827;
+    
+}
+
+.imagen-diferenciales:hover{
+    opacity: 30%;
+}
+
+.video iframe{
+    width: 940px;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa, .contenido-diferenciales,.video{
+        width: auto;
+    }
+
+    /*PRODUCTOS*/
+
+    .navbar li a{
+        font-size: 21px;
+    }
+
+    .productos{
+        width: auto;
+    }
+
+    .productos li{
+        width: 300px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    /*CONTACTO*/
+    .formulario-contacto{
+        width: auto;
+    }
+
+    .formulario-contacto label{
+        margin-left: 10px;
+    }
+
+    .formulario-contacto .input-padron{
+        width: 75%;
+        margin-left: 10px;
+    }
+
+    .formulario-contacto textarea{
+        width: 75%;
+        margin-left: 20px;
+    }
+
+    .formulario-contacto legend{
+        margin-left: 10px;
+    }
+
+    .formulario-contacto .time{
+        margin-left: 10px;
+    }
+
+    .formulario-contacto .boton-send{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .boton-send .enviar{
+        width: 100%;
+    }
+
+    .alinear-table .tabla{
+        margin-left: 115px;
+    }
+
+}
