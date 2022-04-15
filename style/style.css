@@ -196,6 +196,28 @@ td, th{
     margin: 0 0 10px 0;
 }
 
+.contacto{
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+.contacto #name:hover{
+    text-shadow: 5px 5px 10px white;
+    color:#c78c19;
+}
+
+.contacto #github{
+    color: #8b0fa4;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+.contacto #github:hover{
+    text-shadow: 5px 5px 10px white;
+    color: white;
+}
+
 /* CSS index */
 
 .banner{
@@ -381,6 +403,11 @@ td, th{
 
     .alinear-table .tabla{
         margin-left: 115px;
+    }
+
+    footer .contacto{
+        line-height: 20px;
+        font-size: 13px ;
     }
 
 }
